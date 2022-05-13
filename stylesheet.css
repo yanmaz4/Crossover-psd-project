@@ -1,0 +1,100 @@
+/* .row {
+    border: solid 1px red;
+}
+
+.col, .col-3 {
+    border: solid 1px green;
+} */
+
+
+
+:root {
+    --header-font: 'Prata', serif;
+    --text-font: 'Lato', sans-serif;
+    color: black;
+    font-family: var(--text-font);
+}
+
+.container {
+    max-width: 100%;
+}
+
+.header-font {
+    font-family: var(--header-font);
+    color: black;
+}
+
+.text-font {
+    font-family: var(--text-font);
+    color: black;
+}
+
+
+/* ---Marcel - FIRST ROW--- */
+.marcel-first-row {
+    color: white;
+    background-color: #232323;
+}
+
+.m-header-1 {
+    font-size: 2.5em;
+    color: white;
+}
+
+.m-header-1-2 {
+    font-size: 1.2em;
+}
+
+.m-text-1 {
+    text-align: justify
+}
+
+.m-picture-1 {
+    height: 85%;
+    width: auto;
+    float: right;
+}
+
+/* ---Marcel - SECOND ROW--- */
+
+.m-header-2 {
+    font-size: 3em;
+}
+
+.m-button {
+    height: 1.5em;
+    border: 0;
+    background-color: white;
+    font-weight: bolder;
+}
+
+.m-second-row-lines {
+    border: 0.1em solid black;
+}
+
+.m-picture-2 {
+    height: 90%;
+    width: auto;
+}
+
+/* ---Marcel - THIRD ROW--- */
+
+.m-header-3 {
+    font-size: 3em;
+}
+
+.caroussel-box {
+    border: solid 1.5px #232323;
+    height: 20em;
+}
+
+.customer-icon {
+    width: 7em;
+    height: 7em;
+    background-color: #232323;
+}
+
+.m-header-3-2 {
+    font-size: 1.2em;
+    color: black;
+}
